@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chloé Bosquin, CV Website</title>
+    <script src='jquery-3.2.1.min.js'></script>
+    <script src='http://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.js'></script>
+    <script src="https://kit.fontawesome.com/3e4b298c14.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav id="nav">
+            <div class="grid10 navresp">
+                <div class="namemenu">
+                    <a href="#" id="name" class="active">Chloé Bosquin</a>
+                </div>
+                <div class="burgerbar">
+                    <a href="#" onclick="showBurger()" href="javascript:void(0);" id="burgerIcon">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+                <div id="burgerLinks" class="burger burgerdesk" style="display: none;">
+                    <hr>
+                    <a href="#expe" onclick="hideBurger()">Expériences</a>
+                    <a href="#skills" onclick="hideBurger()">Compétences</a>
+                    <a href="#training" onclick="hideBurger()">Formations</a>
+                    <a href="#interest" onclick="hideBurger()">Qui je suis</a>
+                    <a href="#nutshell" onclick="hideBurger()">En résumé</a>
+                    <a href="#contact" onclick="hideBurger()">Contact</a>
+                    <hr id="navLine">
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <section class="page-header grid10">
+            <div id="handwritingTitle">
+                <svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 299.6 177">
+                    <defs>
+                        <clipPath id="clip-path" transform="translate(-4 -12.5)">
+                            <path id="é"
+                                d="M252.3,61.9c-3.9,3-11,4.7-13,3.6-6.2,6-12.3,14.7-8.8,16.4,1.9.9,6.4-.6,10.2-3.3a93.8,93.8,0,0,0,12.1-10.3c.6-.6,1-.7,1.3-.4s-.1,1-.5,1.4a106,106,0,0,1-10.9,9.5c-4.4,3.4-8.9,5.1-12.6,4.8s-4.8-2.3-4.8-5.6,1.2-7.5,6.4-13.2c7.4-8.1,20-13.9,23.4-11.9S255.9,59,252.3,61.9Zm-12.4,3c1.4.5,6.2-1.2,10.4-4.7s5.2-5.6,4.2-6.4S244.6,60,239.9,64.9Zm13.9-15.5c1.4-1.1,3.2-2.9,4-7.4.4-2.7,1.6-3.7,2.8-3.5s2.7,1.8,2.3,3.6c-.8,3.4-5.6,7.1-8.4,8.3-.5.2-1.1.3-1.2,0S253.4,49.7,253.8,49.4Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-5" transform="translate(-4 -12.5)">
+                            <path id="o"
+                                d="M211.8,70.8c-8.7,9.5-16.3,13.8-19.9,12.8-5.8-1.5-5-11,3.1-19.7S214.8,51,218.8,53.2,219.8,62.1,211.8,70.8Zm-12.2-2.4c-5.5,6.2-10,12.2-7.5,13.8s9.6-5,18.3-14.4c3.7-4.1,9.6-11.8,7.9-13.4S208.4,58.7,199.6,68.4Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-2" transform="translate(-4 -12.5)">
+                            <path id="l"
+                                d="M214.1,29c-2.6.7-5.8,3.2-7.6,4.5-9.7,7.9-18.9,17.3-29.6,29-7.7,8.5-15.5,18-13.5,19.4s4.2-.9,8.7-4.3c2.8-2.1,8.1-7,10.4-9.2.5-.4,1.1-.9,1.4-.3s.1.8-.4,1.3a111.1,111.1,0,0,1-11,9.6c-4.4,3.3-8.1,5.6-10.5,4.7s-3.7-4.7-1.1-9.4,6.3-8.9,12.3-15.5c10.3-11.2,21.2-21.5,27.7-26.2a22.1,22.1,0,0,1,5.8-3.1,28.1,28.1,0,0,1,7.5-.7Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-3" transform="translate(-4 -12.5)">
+                            <path id="h"
+                                d="M126.8,59.7c7.8-9.1,21.1-22.5,28.4-27.4a20,20,0,0,1,6.2-2.8,32.6,32.6,0,0,1,6.6-.7V29c-2.6.7-6,3.1-7.5,4.4-8.6,6.9-23,21.9-31,31.4,5.2-4.4,17.3-13,21.9-12,6.3,1.4,1.3,8.8-5.2,15a77.5,77.5,0,0,0-7.6,8c-3.3,3.8-4,5.4-3.1,6.1s5-1.2,8.7-4.1,7.4-6.3,10-8.7c.3-.4.8-.8,1.2-.3s0,1.2-.5,1.6a127.6,127.6,0,0,1-10.4,9c-4.1,3-8.7,5.2-11.6,4.1s-3.5-4.6-.4-9.2,4.3-5.4,8.2-9.2S152,55.4,150,54.3s-15.8,7.6-22,13.5A90.6,90.6,0,0,0,114.7,84c-1.5-.3-2.1-3.4-1.4-5.1C116,72.8,123.4,63.8,126.8,59.7Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-4" transform="translate(-4 -12.5)">
+                            <path id="C"
+                                d="M144.2,29.1c-4,0-9.6-1.7-13.7-2.7a118.2,118.2,0,0,0-11.8-2.6A101.2,101.2,0,0,0,90.3,42.6c-13,12-23.8,27.8-23.8,36.9,0,4.8,2.9,8.1,9.2,7.9s13.9-3.6,19.7-7.5a144.9,144.9,0,0,0,12.4-9.8c.5-.6,1.2-1.3,1.6-.9s-.2,1.4-.9,2A130.3,130.3,0,0,1,96,81.2c-6.2,4.3-13.3,7.5-20.4,7.9S63.3,86.4,62,80.5l-1,.3-1.6.2c-10.1.4-17.1-6.7-17.3-18.6s6.1-25.7,18-34c10.3-7.1,23-9.9,36.9-9.7a91.6,91.6,0,0,1,19.9,2.6,60.4,60.4,0,0,1,18.2-2.7c6.9,0,12.5,3.1,12.5,7.8C147.6,28,146.1,29.1,144.2,29.1Zm-46.7-7c-12.5.2-24.7,2.5-35.3,9.7S43.8,51,43.9,62.3s6.5,17.5,15.6,17.5a10.1,10.1,0,0,0,2.3-.4C60.9,67.5,69.4,53,81.2,42.3a100.1,100.1,0,0,1,31.7-19.4A103.9,103.9,0,0,0,97.5,22.1ZM135.1,20a38.3,38.3,0,0,0-13.4,2.5l9.2,2.6c4,1.2,9.3,2.9,13.1,2.9,1.6,0,2.6-.7,2.6-1.7C146.6,22.2,141.3,20,135.1,20Z"
+                                fill="none" />
+                        </clipPath>
+
+                        <clipPath id="clip-path-6" transform="translate(-4 -12.5)">
+                            <path id="n"
+                                d="M296.4,149.6c-2.6,2.4-6.2,5.4-9.7,8.1s-7.9,4.6-10.6,3.7-3.1-4.1-.3-8.1,3.9-4.8,7.5-8.2,10.4-8.6,8.6-9.5-15.2,7.7-21.2,13.5a92.8,92.8,0,0,0-11,12.7c-1.3,0-2.1-3-1.3-4.5a66.6,66.6,0,0,1,10.4-14,39.1,39.1,0,0,1,7.5-6.8,15.6,15.6,0,0,1,7.9-1.9A79.9,79.9,0,0,0,272,146.3c5.1-4.3,16.8-13,21.1-12s1.1,7.7-4.8,13.2c-2.8,2.6-5.1,5.1-6.9,7-3.2,3.4-3.7,4.7-2.8,5.4s4.4-.9,7.8-3.5a114,114,0,0,0,9.5-8c.3-.2.7-.6,1-.2S296.9,149.1,296.4,149.6Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-7" transform="translate(-4 -12.5)">
+                            <path id="i"
+                                d="M240.5,153.4c-2.7,3.3-4.3,6.1-3,6.7s6-2.5,8.4-4.3,7.3-6.1,9.2-7.8.7-.7,1.2-.2,0,.7-.4,1.1c-2.2,2.2-7.4,6.5-9.2,7.9s-6.9,4.8-9.4,4.8c-5.8,0-5-7,1.6-14.1,3.3-3.7,10-10.1,13.5-12,1.3-.8,5.2-1,6.3-.9A238.4,238.4,0,0,0,240.5,153.4Zm21.4-23.2a3.1,3.1,0,1,1,3-3.1A3.1,3.1,0,0,1,261.9,130.2Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-8" transform="translate(-4 -12.5)">
+                            <path id="u"
+                                d="M216.1,153.1c-2.7,3.4-4.7,6-3.4,6.7s6-2.7,8.1-4.4,5.8-5.1,8.3-7.4c.3-.3.8-.7,1.2-.3s0,.8-.2,1.1c-2.8,2.6-6.6,5.8-8.4,7.4-3.4,2.7-7,5.4-9.7,5.3s-4.7-3.6-2.1-8.1l-3.1,2.8c-3,2.4-6.9,5.5-10.1,5.4s-4-2.6-3.2-5.3,2.8-5.8,6-9.1a72.7,72.7,0,0,1,13.2-11c1.3-.8,4.8-1.3,6.9-1.3-7.7,6.6-15.4,14.3-18.4,18.2s-4.4,5.9-3.2,6.5,5.5-2.2,8.2-4.4a94.3,94.3,0,0,0,8.3-8c3.5-3.7,9.7-9.8,13.1-11.8a13.8,13.8,0,0,1,6.1-1A212.3,212.3,0,0,0,216.1,153.1Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-9" transform="translate(-4 -12.5)">
+                            <path id="q"
+                                d="M177.7,153.3a381.8,381.8,0,0,0-25.1,31.6c-1.1,1.5-1.9,3-2.4,2.9s-.9-1.5-.6-3.3,4.3-9.4,9.2-15.8,7.5-8.7,12.9-15h-.1c-4.6,3.8-9.6,7.8-12.3,7.8-6,0-3.2-9.7,2.7-16s19.6-12.8,23.3-10.8c1,.5,1.5,2.8-1.7,6.1v.2a49.4,49.4,0,0,1,6.9-5.2,14.5,14.5,0,0,1,4.9-.7C188,141.9,181,149.7,177.7,153.3ZM167,148c-5.4,5.2-9.7,11-7.5,12s9.4-4.7,16.7-12.6c3.4-3.6,10.2-10.3,8.5-11.7S176.3,138.9,167,148Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-10" transform="translate(-4 -12.5)">
+                            <path id="s"
+                                d="M151.8,133.1c-2.2,1.3-5.3,3-6.5,4.3s-1.3,3.1-1.3,4.6c0,4.4.5,11-7.3,16.3a65.9,65.9,0,0,0,15.1-10.4.6.6,0,0,1,1,0c.2.3,0,.7-.3,1a63.4,63.4,0,0,1-15.2,10.4,29.2,29.2,0,0,1-10.9,2.3c-2.3-.2-4.1-1.2-4-3.6s1.1-3.5,3-5.4a38.2,38.2,0,0,1,3.5-3.3c1.9-1.7,3.4-2.5,4.4-2.4a128.2,128.2,0,0,0,10.4-9.9,50.3,50.3,0,0,1,5.4-6.3c2.6-2.4,5.5-3.7,7.4-2.8S156.3,130.5,151.8,133.1Zm-17.9,14.7c-.2,1-1.4,2.4-3.5,3.9s-3.5,1.9-4.7,2.8a4.8,4.8,0,0,0-2.1,3.2,2,2,0,0,0,2.2,2.2c2.8,0,6.3-2.3,9.7-6.3a43.6,43.6,0,0,0,7.8-14.6A102.7,102.7,0,0,1,133.9,147.8Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-11" transform="translate(-4 -12.5)">
+                            <path id="o-2" data-name="o"
+                                d="M112.8,150.1c-7.9,8.4-14.9,12.2-18.2,11.4-5.2-1.4-4.5-9.7,2.9-17.4s18.1-11.4,21.7-9.4S120.1,142.5,112.8,150.1Zm-11.2-2c-5,5.4-9.1,10.7-6.8,12.1s8.8-4.4,16.7-12.7c3.4-3.6,8.8-10.4,7.2-11.8S109.7,139.5,101.6,148.1Z"
+                                fill="none" />
+                        </clipPath>
+                        <clipPath id="clip-path-12" transform="translate(-4 -12.5)">
+                            <path id="B"
+                                d="M96.8,103.2a32.3,32.3,0,0,0-8.7,4.5c4,3.7,7.3,10.8,3.4,17s-11.8,8.6-19.8,9.1c6.7,4.2,10.1,11.7,6.4,18.5-4.8,8.8-18.4,12.5-32,12.7a83.8,83.8,0,0,1-22.2-2.5c-1.8-.4-3.3-.9-4.8-1.1,2.9,10.2,10.8,15.1,21.2,14.7a22.2,22.2,0,0,0,10-3.4c.6-.4,1.3-1,1.4-.8s-.1,1.2-.7,1.6-6.8,3.6-10.9,3.8c-11.5.6-19.9-5.6-22.4-15.6a47.5,47.5,0,0,1-7.8,1c-1.9,0-3.5-.3-3.4-1.4s3.1-2.5,5.2-2.7a19.4,19.4,0,0,1,5.4.4,32.9,32.9,0,0,1-.4-7.2,52,52,0,0,1,14.6-34.7,53.4,53.4,0,0,1,39.2-15.4c6.8.2,13.2,2.4,16.3,4.9a27.2,27.2,0,0,1,9.4-4.3c1.6-.3,3.5-.5,3.4.1S98.6,102.6,96.8,103.2Zm-26.3-.1c-15.1-.2-27.1,7.4-36,16.3s-15.9,22.5-16.3,32.7a31.7,31.7,0,0,0,.5,7.1,10.6,10.6,0,0,0,5.3,0c10.6-2.1,19.9-10.5,33.1-25.4,9.3-10.3,19.8-21.1,28.6-26.5C83.2,105.3,77.6,103.2,70.5,103.1Zm-1.2,30.8a7.2,7.2,0,0,1-2.1-.1c-.6-.4-1.1-.8-1.1-1.3a20.3,20.3,0,0,1-1.8,2.3C46.7,155,32.2,159.6,21.8,160.7a10.3,10.3,0,0,1,2.4.5,86.9,86.9,0,0,0,22.3,2.3c11.1,0,20.7-5.2,25.3-12.6S74.8,136.4,69.3,133.9Zm-2.4-2.3a2.9,2.9,0,0,1,1.5.3,7.7,7.7,0,0,1,2.1,1c5.2-.5,10.9-2.9,15.6-9.7s2.4-12.8,1-14.6C78.7,115.5,72.2,124.9,66.9,131.6Z"
+                                fill="none" />
+                        </clipPath>
+                    </defs>
+                    <title>Sans titre - 3</title>
+                    <g>
+                        <g id="e_m" data-name="é m">
+                            <g clip-path="url(#clip-path)">
+                                <path
+                                    d="M114.7,81.1c0,.1-.1,0,0,0a116.4,116.4,0,0,0,10.6-13c11.4-16.8,37.8-40.2,35.5-37.8s-32.1,33.3-37,37.5c-.1,0,0,.1,0,.1,3.7-2.3,23.8-14.6,26.4-14.6a2.8,2.8,0,0,1,2.9,2.9H153L136.7,74.2h0l-3.8,7h0a1.9,1.9,0,0,0,1.9,2c1.9,0,18.3-10,19.2-14s47.5-34.6,53.3-38.5a.1.1,0,0,1,.1.1c-5.7,5-51.5,45.3-46.6,50.4,1.9,2,3.8,5,22.1-13s32.4-15.2,34.4-15c.1,0,.1.1,0,.1a39,39,0,0,0-25.7,20.9c-8.7,18,18.2,2,23.1-8s4.8-6,3.8-11.8c0-.1,0-.1.1-.1l23.2,10.6h0c.3,0,15.2-1.8,13.3-10.6s-33.8,22.1-28.9,25.9,5.2,4.8,11.6,1c14.1-8.4,8.9-6.1,15.3-13s2.3-18.9,2.1-19.4l1.8-1.5,3.8-6.9a.1.1,0,0,0-.1-.1Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="8.82" />
+                            </g>
+                        </g>
+                        <g id="o_m-2" data-name="o m">
+                            <g clip-path="url(#clip-path-5)">
+                                <path d="M215.6,53.3s-25,15.9-26,26.9,19.3-8,19.3-8l10.6-14.9v-3Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="8.82" />
+                            </g>
+                        </g>
+                        <g id="l_m" data-name="l m">
+                            <g clip-path="url(#clip-path-2)">
+                                <path
+                                    d="M207.9,30.3s-51,41.9-47.1,48.9,1.9,3,2.8,4,17.8-10.9,19.5-14.9S207.9,30.3,207.9,30.3Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="6.86" />
+                            </g>
+                        </g>
+                        <g id="h_m" data-name="h m">
+                            <g clip-path="url(#clip-path-3)">
+                                <path
+                                    d="M159.7,31.9c0-.2-.2-.3-.3-.2-2.3,2.5-5.4,4.6-16,14.6-17.3,16.3-28.7,34.3-29,34.1l.2-.2c10.2-14.2,10.2-12.4,10.6-13s1.8-2,1.9-2c3.3,1.6,19.4-12.9,23.1-11.9s-2.9,10.9-2.9,10.9-17.3,12-14.4,16,0,3,4.8,2,16.3-13,16.3-13Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="17.63" />
+                            </g>
+                        </g>
+                        <g id="C_m" data-name="C m">
+                            <g clip-path="url(#clip-path-4)">
+                                <path
+                                    d="M61.6,79.2s-4.7,1.7-10.5-1.7-6.7-7-7.2-13.1,3.7-20.5,9.8-25.3S69.4,26,81.9,23.7s24-1.3,31.7-1.3,22.1,5.3,22.1,5.3l8.7,1.6s3.9-1,2.9-4.9-9.6-5-10.6-5-23.1,0-44.3,16.9S64.5,73.2,64.5,73.2s-3.8,9,3.9,13S87,84.5,87,84.5s21.8-12.3,22.8-15.3"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="12.24" />
+                            </g>
+                        </g>
+
+                    </g>
+                    <g>
+                        <g id="n_m" data-name="n m">
+                            <g clip-path="url(#clip-path-6)">
+                                <path
+                                    d="M278.5,136.5S261,154,260.1,158.4s7.3-9.8,11.4-11.4c8.6-3.3,15.8-14.1,22.9-11.4,3.4,1.3-14.1,16.7-14.1,16.7s-6.2,6.1-3.5,7.9,7.3-2.2,7.3-2.2l12-9.2Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="8.79" />
+                            </g>
+                        </g>
+                        <g id="i_m" data-name="i m">
+                            <g clip-path="url(#clip-path-7)">
+                                <path d="M283.8,107.5s-49.2,43.9-49.2,49.2,6.1,3.5,6.1,3.5l15.9-12.3Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="7.03" />
+                            </g>
+                        </g>
+                        <g id="u_m" data-name="u m">
+                            <g clip-path="url(#clip-path-8)">
+                                <path
+                                    d="M214.4,136.5s-19.4,14.9-18.5,20.2,1.8,3.5,1.8,3.5,31.6-18.5,32.5-23.7S210,154,210.9,157.6s2.6,2.6,2.6,2.6,14.9-7.9,15.8-12.3S214.4,136.5,214.4,136.5Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="7.91" />
+                            </g>
+                        </g>
+                        <g id="q_m" data-name="q m">
+                            <g clip-path="url(#clip-path-9)">
+                                <path
+                                    d="M150.2,185.7s36.1-47.5,41.3-49.2-19.3,15.8-19.3,15.8-10.6,11.4-13.2,7.9-.9-6.2-.9-6.2,10.4-10.7,14.1-13.1c5.3-3.6,6.1-5.3,10.5-6.2,9.3-1.8-5.2,13.2-5.2,13.2Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="7.03" />
+                            </g>
+                        </g>
+                        <g id="s_m" data-name="s m">
+                            <g clip-path="url(#clip-path-10)">
+                                <path
+                                    d="M135.4,146.6s3.6-4,7.5-8,11.3-10.1,10.8-9.2-8.4,8-10.5,9.7c-.4.3,0,4.4-1.8,8.8l-4.7,7.1a1.1,1.1,0,0,0,1.6,1.3l13.7-8.4s-13.2,11.4-23.8,13.2c-6.9,1.1-4.1-5.2-3.5-6.2s5.3-2.6,8.8-7S135.4,146.6,135.4,146.6Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="13.18" />
+                            </g>
+                        </g>
+                        <g id="o_m_1" data-name="o m">
+                            <g clip-path="url(#clip-path-11)">
+                                <path
+                                    d="M115.9,134.7s-26.5,13.1-23.1,24.8c2,6.8,24.4-16.1,25.8-18.6S119.5,133.8,115.9,134.7Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="7.91" />
+                            </g>
+                        </g>
+                        <g id="B_m" data-name="B m">
+                            <g clip-path="url(#clip-path-12)">
+                                <path
+                                    d="M96.6,103.1a58.3,58.3,0,0,0-33.4,29c-11.4,22.8-48.3,30.7-53.6,29s51.8,8.8,57.1-.9,15.4-14.5,9.7-20.2-3.5-4.4-8.8-7.1,19.3,3.6,23.7-10.5c2.9-9.2-5.5-19.3-12-19.3s-12.1-4.2-35.4,6.1-25.7,45.9-25.7,45.9-.3,14.6,10.9,20.4,22.7-2.1,22.7-2.1Z"
+                                    transform="translate(-4 -12.5)" fill="none" stroke="#010101" stroke-miterlimit="10"
+                                    stroke-width="10.55" />
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+
+
+                <hr>
+                <h1 id="subtitle">Front-End Developper</h1>
+            </div>
+            <figure id="profileImage">
+                <picture>
+                    <img src="images/chloeCartoon.png" alt="">
+                </picture>
+            </figure>
+
+        </section>
+        <section class="who-I-am">
+            <div class="grid10 slidein">
+                <div class="item1">
+                    <h2>À propos </h2>
+                    <p>Vous l'aurez certainement deviné, je suis <strong>front-end développeuse</strong>. Pourtant, il
+                        n'y a pas que la programmation qui me définisse. Après une expérience enrichissante en tant que
+                        Marketing Manager dans une entreprise IT, je me suis <strong> passionnée pour le code</strong>.
+                        Et pourquoi le <strong>développement front-end</strong> faisait-il sens ? Parce que au-delà de
+                        la création d'une plateforme web, j'accorde de l'importance à sa <strong>stratégie de
+                            communication</strong> et son <strong>UX design</strong>.
+                        Mon expérience professionnelle a fait de moi une développeuse </strong>polyvalente et soucieuse
+                        du détail</strong>. <strong>Because every pixel matters !</strong> </p>
+                </div>
+            </div>
+        </section>
+        <section class="experience" id="expe">
+            <div class="timeline slidein">
+                <h2>Expériences</h2>
+                <div data-start="Octobre 2019" data-end="Présent" class="timeline-block">
+                    <h3 class="h3Odd">Front-End Développeuse</h3>
+                    <p class="date"><i class="fas fa-clock fa-2x"></i> Janvier 2020 - Présent </p>
+                    <ul class="ulExperience">
+                        <li>Maintenance, amélioration et développement de plateformes web plus rapides, sécurisées et
+                            écologiques.
+                            Utilisation de technologies modernes en JavaScript pour optimiser le code et la performance
+                            des plateformes web. </li>
+                        <li>Développement de fonctionnalités web dans le but d'améliorer l'esthétisme visuel de la
+                            plateforme, son ergonomie fonctionnelle
+                            et rendre sa navigation intuitive et user-friendly.
+                        </li>
+                    </ul>
+                    <p class="company"><i class="fas fa-graduation-cap fa-2x"></i> <a
+                            href="https://www.studiocolibri.be/">Studio Colibri</a> - Belgique</p>
+                </div>
+                <div data-start="Octobre 2019" data-end="Décembre 2019" class="timeline-block">
+                    <h3 class="h3Odd">Back-End Développeuse - Stagiaire</h3>
+                    <p class="date"><i class="fas fa-clock fa-2x"></i> Janvier 2020 - Présent </p>
+                    <ul class="ulExperience">
+                        <li> Développement d'un plugin Wordpress en PHP permettant la création de liens bidirectionnels
+                            ACF.
+                        </li>
+                        <li> Développement d'une page administrative dans le thème enfant Wordpress, permettant la
+                            gestion des liens bidirectionnels des plateformes web clients. </li>
+                    </ul>
+                    <p class="company"><i class="fas fa-graduation-cap fa-2x"></i> <a
+                            href="https://cobea.coop/">Cobea</a> - Belgique</p>
+
+                </div>
+                <div data-start="Octobre 2016" data-end="Mars 2019" class="timeline-block">
+                    <h3 class="h3Odd">Marketing Manager </h3>
+                    <p class="date"><i class="fas fa-clock fa-2x"></i> Janvier 2020 - Présent </p>
+                    <ul class="ulExperience">
+                        <li> Définir et suivre le plan et budget marketing régional (200 K), contribuer activement à la
+                            définition du plan et budget marketing groupe (600 K)</li>
+                        <li> Gestion des actions opérationnelles : optimisation SEO, campagnes SEA, gestion du site web,
+                            création de newsletter, gestion des réseaux sociaux et d’événements clients.</li>
+                    </ul>
+                    <p class="company"><i class="fas fa-graduation-cap fa-2x"></i> <a href="https://efficy.com/">Efficy
+                            Group</a> - Belgique</p>
+                </div>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="grid10 slidein">
+                <div class="item1">
+                    <h2>Compétences</h2>
+                </div>
+                <div class="dynamicBar animation">
+                    <div class="bar learning" data-skill="CSS"></div>
+                    <div class="bar primary basic" data-skill="HTML"></div>
+                    <div class="bar intermediate" data-skill="JavaScript"></div>
+                    <div class="bar primary advanced" data-skill="PHP"></div>
+                    <div class="bar intermediate" data-skill="MySQL"></div>
+                </div>
+                <div class="personnality">
+                    <p style="padding-top:0px;margin-top:0px;">
+                        <ul>
+                            <li>
+                                <p class="plist"><strong>• SEM: </strong>excellentes connaissances théroriques et
+                                    opérationnelles en SEO, SEA et SMO</p>
+                            </li>
+                            <li>
+                                <p class="plist"><strong>• Design:</strong> connaissances approfondies de la suite Adobe
+                                    (XD, Photoshop, Illustrator, Indesign)</p>
+                            </li>
+                            <li>
+                                <p class="plist"><strong>• Langues:</strong> français(C2), anglais (C1), espagnol (C1)
+                                    et néérlandais (B1) </p>
+                            </li>
+                            <li>
+                                <p class="plist"><strong>• Agile:</strong> connaissance de la méthododologie 'Scrum',
+                                    personnalité flexible et autodidacte</p>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="images/bootstrap&github.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/github.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/wordpress.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/googleTools.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/illustrator.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/indesign&photoshop.png" height="100" width="250" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="images/mailchimp.png" height="100" width="250" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="training" id="training">
+            <div class="grid10 slidein">
+                <div class="item1">
+                    <h2>Formations</h2>
+                    <div class="trainline">
+                        <div class="container left">
+                            <div class="content">
+                                <h3>Mai - Novembre 2019</h3>
+                                <p style="color: var(--dark-color); font-weight: 600;">- Bruxelles Formation -</p>
+                                <p style="font-weight: 400;margin: -9px;"><a class="insitute"
+                                        href="http://www.evoliris.be/fr/content/full-stack-developer">Formation
+                                        Full-stack Developer</a></p>
+                                <p>Formation intensive en langages de programmation front-end (HTML, CSS, JavaScript,
+                                    Angular), back-end (MySQL, PHP, Node JS) et méthodologie Agile « scrum ». </p>
+                            </div>
+                        </div>
+                        <div class="container right">
+                            <div class="content">
+                                <h3>Juin 2015 - Juin 2016</h3>
+                                <p style="color: var(--dark-color); font-weight: 600;">- HEC Liège -</p>
+                                <p style="font-weight: 400;margin: -9px;"><a class="insitute"
+                                        href="http://www.hec.ulg.ac.be/fr/masters/master-en-entrepreneuriat-hec-liege-entrepreneurs">Maîtrise
+                                        Entrepreneuriat</a></p>
+                                <p>Maîtrise complémentaire en Sciences de Gestion, spécialisation en Entrepreneuriat.
+                                    Modules marketing, stratégie de croissance, reprise et transmission, business model
+                                    et business plan.</p>
+                            </div>
+                        </div>
+                        <div class="container left">
+                            <div class="content">
+                                <h3>Septembre 2013 - Juin 2015</h3>
+                                <p style="color: var(--dark-color);font-weight: 600;">- Université Libre de Bruxelles
+                                    (ULB) -</p>
+                                <p style="font-weight: 400;margin: -9px;"><a class="insitute"
+                                        href="https://www2.ulb.ac.be/programme/MA-BABL/index.html"></a> Maîtrise en
+                                    Communication Multilingue</p>
+                                <p>Maîtrise en communicationnim, spécialisation Relations Internationales. Cours de
+                                    communication, langues étrangères, linguistique, organisations internationales et
+                                    géopolitiques.</p>
+                            </div>
+                        </div>
+                        <div class="container right">
+                            <div class="content">
+                                <h3>Septembre 2010 - Juin 2013</h3>
+                                <p style="color: var(--dark-color);font-weight: 600;">- Université de Liège (ULg) -</p>
+                                <p style="font-weight: 400;margin: -9px;"><a class="insitute"
+                                        href="https://www.programmes.uliege.be/cocoon/20192020/programmes/P1MODE01_C.html">Bachelier
+                                        en Langues Modernes, Anglais et Espagnol</a>
+                                    </strong></p>
+                                <p>Apprentissage de la langue, linguistique et culture anglaise et espagnole.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hobby " id="interest">
+            <div class="grid10 slidein">
+                <div class="item1">
+                </div>
+
+                <div class="item2">
+                    <h2>Qui je suis</h2>
+                    <div class="textdescription">
+                        <div id="creativite" class="description">
+                            <h3>« Le seul endroit où vos rêves sont impossibles, c’est dans votre tête » </h3>
+                            <h4 style="font-style: italic;">– R. Schuller –</h4>
+                            <p>Depuis petite, je suis passionnée par le théatre et les beaux-arts.
+                                Je suis aussi danseuse de salsa et de swing. J'ai tout récemment appris à coudre.
+                                Petite anecdote, j'ai créé et cousu ma propre robe de mariée ;)
+                                La créativité est partie intégrante de ma vie et de mon épanouissement personnel.</p>
+                        </div>
+
+                        <div id="lecture" class="description" style="display:none">
+                            <h3>« Lire s'est boire et manger. L'esprit qui ne lit pas maigrit comme le corps qui ne
+                                mange pas. » </h3>
+                            <h4 style="font-style: italic;">– V. Hugo –</h4>
+                            <p>La lecture est pour moi une porte d'entrée vers l'inconnu.À travers ceux-ci, je m'imerge
+                                dans une
+                                nouvelle culture, une nouvelle langue, un nouveau genre, en d'autres mots, une nouvelle
+                                façon de voir le monde.
+                                La littérature permet de s'affranchir de ses frontières géographiques, culturelles et
+                                individuelles. </p>
+                        </div>
+
+                        <div id="bénévolat" class="description" style="display:none">
+                            <h3>« Tout seul on va plus vite ensemble on va plus loin. » </h3>
+                            <h4 style="font-style: italic;">– Proverbe africain –</h4>
+                            <p>Je souhaite un monde plus juste, plus convivial et résilient, et ce changement il
+                                commence par moi-même.
+                                C'est pourquoi je me suis toujours activement engagée dans des associations ou
+                                coopératives de quartier. </p>
+                        </div>
+                        <div id="nature" class="description" style="display:none">
+                            <h3>« La nature, cette beauté qui m'est fleur. » </h3>
+                            <h4 style="font-style: italic;">– Paolo Amaro –</h4>
+                            <p>Lorem ipsum is the capital of France.</p>
+                        </div>
+                    </div>
+                    <div class="buttondescription">
+                        <div class="tabhobby tab">
+                            <button class="tabhobby" onclick="openTab(event,'creativite')">
+                                <img src="images/quill.svg" alt="creativité">
+                                <p>Créativité</p>
+                            </button>
+                        </div>
+                        <div class="tabhobby tab">
+                            <button class="tabhobby" onclick="openTab(event,'lecture')">
+                                <img src="images/book-blue.svg" alt="lecture">
+                                <p class="blue">Lecture</p>
+                            </button>
+                        </div>
+                        <div class="tabhobby tab">
+                            <button class="tabhobby" onclick="openTab(event,'bénévolat')">
+                                <img src="images/people-handshake-white.svg" alt="bénévolat">
+                                <p>Bénévolat</p>
+                            </button>
+                        </div>
+                        <div class="tabhobby tab">
+                            <button class="tabhobby" onclick="openTab(event,'nature')">
+                                <img src="images/bonsai.svg" alt="nature">
+                                <p class="blue">Nature</p>
+                                </buttonclass="tabhobby">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="nutshell " id="nutshell">
+            <div class="grid10 slidein">
+                <div class="item1">
+                    <h2>En résumé</h2>
+                    <div class="itemNutshell">
+                        <ul>
+                            <li>&#10004; Front-end développeuse</li>
+                            <li> &#10004; Polyvalence et adaptation</li>
+
+                            <li>&#10004; Français, anglais et espagnol</li>
+                            <li>&#10004; Infografie, SEM et UX</li>
+                            <li>&#10004; Créativité, lecture, bénévolat et nature</li>
+                        </ul>
+                        <a class="buttonBlue" download="ChloeBosquin-CV-FR-FullStack.pdf">Télécharger mon CV</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="grid10 slidein" style="align-items: center;">
+                <div class="item3">
+                    <img src="images/chloeCartoonContact.png" alt="" id="contactImage">
+                </div>
+                <div class="item4">
+                    <h2>Me contacter</h2>
+                    <div class="form">
+                        <div></div>
+                        <form>
+                            <form action="#" method="get">
+                                <input type="text" placeholder="Votre nom">
+                                <input type="text" placeholder="L'objet de votre email">
+                                <input type="number" placeholder="Votre numéro de téléphone">
+                                <textarea name="message" id="" cols="30" rows="3"
+                                    placeholder="Votre message"></textarea>
+                                <input type="submit" value="Envoyer" class="buttonBlue">
+                            </form>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="footer">
+            <div class="grid10">
+                <div class="copyright">
+                    <P style="font-weight: 600;">Copyrights</P>
+                    <p>Plateforme web développée par Chloé</p>
+                </div>
+                <div class="menu">
+                    <P style="font-weight: 600;">Menu</P>
+                    <ul>
+                        <li> <a class="linkfooter" href="#interest">Qui je suis</a></li>
+                        <li> <a class="linkfooter" href="#expe">Expériences</a></li>
+                        <li> <a class="linkfooter" href="#training">Formations</a></li>
+                        <li> <a class="linkfooter" href="#skills">Compétences</a></li>
+                        <li> <a class="linkfooter" href="#nutshell">En résumé</a></li>
+                    </ul>
+                </div>
+                <div class="contactfooter">
+                    <P style="font-weight: 600;">Contact</P>
+                    <ul>
+                        <A class="linkfooter" HREF="mailto:chloe.bosquin@gmail.com">chloe.bosquin@gmail.com</A> <li>
+                        <a class="linkfooter" href="https://www.linkedin.com/in/chlo%C3%A9-bosquin-366ba9110/">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+</body>
+
+
+</html>
+<script>
+    (function ($) {
+
+        /**
+         * Copyright 2012, Digital Fusion
+         * Licensed under the MIT license.
+         * http://teamdf.com/jquery-plugins/license/
+         *
+         * @author Sam Sehnert
+         * @desc A small plugin that checks whether elements are within
+         *     the user visible viewport of a web browser.
+         *     only accounts for vertical position, not horizontal.
+         */
+
+        $.fn.visible = function (partial) {
+
+            var $t = $(this),
+                $w = $(window),
+                viewTop = $w.scrollTop(),
+                viewBottom = viewTop + $w.height(),
+                _top = $t.offset().top,
+                _bottom = _top + $t.height(),
+                compareTop = partial === true ? _bottom : _top,
+                compareBottom = partial === true ? _top : _bottom;
+
+            return ((compareBottom <= viewBottom) && (compareTop >= viewTop));
+
+        };
+
+    })(jQuery);
+
+    var win = $(window);
+
+    var allMods = $(".slidein");
+
+    allMods.each(function (i, el) {
+        var el = $(el);
+        if (el.visible(true)) {
+            el.addClass("already-visible");
+        }
+    });
+
+    win.scroll(function (event) {
+
+        allMods.each(function (i, el) {
+            var el = $(el);
+            if (el.visible(true)) {
+                el.addClass("come-in");
+            }
+        });
+
+    });</script>
+<script>
+    var burgerLinks = document.getElementById("burgerLinks");
+    var navBar = document.getElementById("nav");
+    function showBurger() {
+        if (burgerLinks.style.display === "none") {
+            burgerLinks.style.display = "inline-flex";
+            navBar.style.backgroundColor = "rgba(255, 255, 255, 0.8)";
+        }
+        else {
+            burgerLinks.style.display = "none";
+            navBar.style.backgroundColor = "rgba(255, 255, 255, 1)";
+        }
+    }
+    function hideBurger() {
+        if (burgerLinks.style.display === "none") {
+            burgerLinks.style.display = "inline-flex";
+        }
+        else {
+            burgerLinks.style.display = "none";
+        }
+    }
+</script>
+<script>
+    function openTab(evt, tab) {
+        var i, x, tabdescription;
+        x = document.getElementsByClassName("description");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        tabdescription = document.getElementById(tab);
+        tabdescription.style.display = "block";
+    }
+</script>
